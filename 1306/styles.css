@@ -1,0 +1,24 @@
+body {
+  background-color: papayawhip;
+  font-family:"lato", sans-serif;
+  color: midnightblue;
+}
+h2,h1,h3 {
+  color: green;
+}
+
+a{
+  text-decoration: none;
+  padding-right: 12px;
+}
+
+img{
+  width: 500px;
+  height: 500px;
+  border-radius: 50%;   
+  margin: 0 auto;
+}
+
+#search-icon{
+  font-size: 30px;
+}
