@@ -21,12 +21,12 @@
 }
 
 #logo {
-  width: 120px;
+  width: 80px;
 }
 
 nav {
   display: flex;
-  padding: 0 120px;
+  padding: 16px 120px;
   align-items: center;
   justify-content: space-between;
 }
@@ -182,17 +182,24 @@ ul {
 #formulario {
   display: flex;
   justify-content: center;
+  align-items: center;
   gap: 80px;
   background-color: #cdcdcd;
   padding: 32px 120px;
   
 }
 
+.subtitulo-contato {
+  font-size: 32px;
+  margin-bottom: 24px;
+  color: #212121;
+}
+
 input, select, textarea{
   width: 300px;
   height: 40px;
   background-color:#EAECE5 ;
-  margin: 10px;
+  margin: 10px 0;
   border: 0px;
   border-radius: 5px;
   padding-left: 10px;
@@ -203,11 +210,12 @@ input, select, textarea{
     color:#FFFFFF;
     border: 0px;
     border-radius: 5px;
-    width: 300px;
+    width: 100%;
     height: 40px;
     margin-bottom: 50px;
     font-weight: bolder;
     cursor: pointer;  
+    
 }
 
 /* Footer */
