@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contato</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <header>
+      <div id="cabecalho">
+        <p id="contato">Central Delivery: (00)0000-0000</p>
+      </div>
+      <nav>
+        <img
+          id="logo"
+          src="img/logo.png"
+          alt="Logo da página escrito pizza com uma bandeira da italia de fundo com 3 estrelas em cima "
+        />
+        <div id="menu">
+          <button class="menu-button"><a href="index.html">Inicio</a></button>
+          <button class="menu-button">
+            <a href="cardapio.html">Cardapio</a>
+          </button>
+          <button class="menu-button">
+            <a href="contato.html">Contato</a>
+          </button>
+          <button class="menu-button"><a href="faq.html">FAQ</a></button>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <div id="menu-informacional">
+        <h1 class="titulo">Quem Somos</h1>
+      </div>
+      <article>
+        <p id="quem-somos">
+          Bem-vindo à Pizzaria Forno Mágico! Somos uma pizzaria apaixonada por
+          oferecer experiências gastronômicas únicas e memoráveis. Desde 1600,
+          nossa missão é proporcionar aos nossos clientes pizzas deliciosas,
+          feitas com ingredientes frescos e de alta qualidade, em um ambiente
+          acolhedor e familiar.
+        </p>
+
+        <h2 class="subtitulo-quem-somos">Nossa História<h2></h2>
+        <p id="nossa-historia">
+          A Pizzaria Forno Mágico nasceu do sonho de Mario e Luigui, dois
+          apaixonados por culinária italiana 
+          que decidiram compartilhar sua paixão com a comunidade. Com receitas
+          tradicionais
+          e um toque especial, eles abriram as portas da nossa primeira unidade
+          no reino do cogumelo. Desde então, temos crescido
+          e conquistado o paladar de nossos clientes, sempre mantendo o
+          compromisso com a qualidade e o sabor autêntico.
+        </p>
+
+        <h2 class="subtitulo-quem-somos">Nossa Missão</h2>
+        <p>
+          Nossa missão é oferecer pizzas de alta qualidade, preparadas com
+          ingredientes selecionados e uma
+          pitada de amor. Acreditamos que cada pizza deve ser uma obra de arte,
+          combinando sabores e
+          texturas para criar uma experiência única em cada pedaço.
+        </p>
+
+        <h2 class="subtitulo-quem-somos">Nossos Ingredientes</h2>
+        <p>
+          Valorizamos a origem e a qualidade dos nossos ingredientes. Utilizamos
+          farinhas especiais, queijos artesanais, tomates frescos e uma
+          variedade de ingredientes selecionados cuidadosamente. Nosso molho é
+          preparado diariamente com tomates frescos e temperos secretos,
+          garantindo um sabor inigualável.
+        </p>
+
+        <h2 class="subtitulo-quem-somos">Nosso Ambiente</h2>
+        <p>
+          A Pizzaria do Reino é mais do que um lugar para comer pizza; é um
+          espaço para criar memórias. Nosso ambiente é acolhedor e familiar,
+          ideal para reunir amigos e familiares. Queremos que cada visita seja
+          especial, por isso nos dedicamos a oferecer um atendimento amigável e
+          personalizado.
+        </p>
+
+        <h2 class="subtitulo-quem-somos">Nossa Equipe</h2>
+        <p>
+          Nossa equipe é formada por profissionais apaixonados pela arte de
+          fazer pizza. Desde os pizzaiolos até os atendentes, todos trabalham
+          com dedicação e entusiasmo para garantir que cada cliente tenha uma
+          experiência gastronômica excepcional.
+        </p>
+
+        <h2 class="subtitulo-quem-somos">Nossos Valores</h2>
+        <ul>
+          <li>
+            Qualidade: Utilizamos apenas os melhores ingredientes em nossas
+            receitas.
+          </li>
+          <li>
+            Tradição: Respeitamos e valorizamos as tradições culinárias
+            italianas.
+          </li>
+          <li>
+            Inovação: Estamos sempre buscando novas ideias e sabores para
+            surpreender nossos clientes.
+          </li>
+          <li>
+            Satisfação do Cliente: A satisfação dos nossos clientes é nossa
+            prioridade número um.
+          </li>
+        </ul>
+
+        <!-- <h2 class="subtitulo-quem-somos">Venha nos Conhecer!</h2> -->
+      </article>
+      <div id="formulario">
+        <div>
+          <h2 class="subtitulo-quem-somos">Fale Conosco</h2>
+          <p>
+            Estamos ansiosos para recebê-lo na Pizzaria do Reino. Seja para um
+            jantar em família, uma reunião<br />
+            com amigos ou uma comemoração especial, estamos prontos para tornar
+            seu momento inesquecível<br />
+            com nossas deliciosas pizzas.
+          </p>
+        </div>
+        <form>
+          <input type="text" placeholder="Nome" required /><br />
+          <input type="email" placeholder="Email" required /><br />
+          <input type="tel" placeholder="Telefone" required /><br />
+          <select id="opcao" required>
+            <option>Informações</option>
+            <option>Reclamações</option>
+            <option>Sugestões</option>
+            <option>Eventos</option></select
+          ><br />
+          <textarea></textarea><br />
+          <button id="button-form" type="submit">Enviar</button>
+        </form>
+      </div>
+    </main>
+
+    <footer>
+      <div id="footer">
+        <img src="img/footer.png" width="90px" alt="dnc-footer" />
+        <p>A melhor pizza do Reino</p>
+      </div>
+    </footer>
+  </body>
+</html>

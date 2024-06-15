@@ -1,0 +1,230 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+}
+
+/* main {
+  padding-left: 120px;
+  padding-right: 120px;
+} */
+
+#cabecalho {
+  background-color: #551b14;
+  padding: 24px 120px;
+  color: aliceblue;
+}
+
+#contato {
+  font: bolder;
+}
+
+#logo {
+  width: 120px;
+}
+
+nav {
+  display: flex;
+  padding: 0 120px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#menu {
+  display: flex;
+  gap: 50px;
+  
+  
+}
+a{
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bolder;
+}
+a:hover{
+    color: #551b14;
+    cursor: pointer;
+}
+
+.menu-button {
+  border: none;
+  font-weight: bolder;
+  cursor: pointer;
+  color: black;
+  text-decoration: none;
+}
+
+#menu-informacional {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(img/bg-pizza.png);
+  background-size: auto;
+  height: 50vh;
+  background-position: -50px;
+  background-repeat: no-repeat;
+  /*Serve para não repetir a imagem*/
+  /*background-size: cover; Serve para cobrir o espaço do body */
+}
+
+.titulo {
+  color: white;
+  font-size: 76px;
+}
+
+#sub-menu {
+  padding: 0 120px;
+
+}
+
+.subtitulo,
+.subtitulo-quem-somos {
+  font-size: 32px;
+  margin-top: 32px;
+  text-align: center;
+  color: #212121;
+  
+}
+
+.subtitulo-quem-somos {
+  text-align: start;
+}
+
+.descricao-secao {
+  text-align: center;
+}
+
+/*Estilização para FAQ*/
+.question {
+  border-bottom: 1px solid #ccc;
+  padding: 10px 0
+}
+
+.question input,
+.question .answer {
+  display: none
+}
+
+.question label {
+  display: inline-block;
+  font-weight: bold;
+  margin-bottom: 5px;
+  width: 100%
+}
+
+.question input:checked~.answer {
+  display: block
+}
+
+
+.locais {
+  display: flex;
+  justify-content: center;
+  gap: 64px;
+  padding: 40px 0 80px 0;
+}
+
+.informacoes-locais {
+  width: 650px;
+}
+
+.informacoes-locais h3 {
+  font-size: 24px;
+  margin: 16px 0 8px 0;
+}
+
+
+
+.imagem-local {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  width: 100%;
+  border-radius: 28px;
+
+}
+
+/* Cardapio */
+
+.pagina-cardapio {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+
+}
+
+#cardapio {
+
+  width: 100%;
+  background-color: #ded2bf;
+}
+
+th {
+  background-color: #C5A571;
+  padding: 12px 0;
+  text-align: center;
+}
+
+td {
+  padding: 8px;
+}
+
+td:hover {
+  background-color: #e8d2af;
+  cursor: pointer;
+}
+
+/* Contatos */
+
+ul {
+  padding-left: 20px;
+}
+
+#formulario {
+  display: flex;
+  justify-content: center;
+  gap: 80px;
+  background-color: #cdcdcd;
+  padding: 32px 120px;
+}
+
+input, select, textarea{
+  width: 300px;
+  height: 40px;
+  background-color:#EAECE5 ;
+  margin: 10px;
+  border: 0px;
+  border-radius: 5px;
+  padding-left: 10px;
+  cursor: pointer; 
+}
+#button-form{
+    background-color: #551B15;
+    color:#FFFFFF;
+    border: 0px;
+    border-radius: 5px;
+    width: 300px;
+    height: 40px;
+    margin-bottom: 50px;
+    font-weight: bolder;
+    cursor: pointer;  
+}
+
+/* Footer */
+
+#footer {
+  display: flex;
+  justify-content: space-between;
+  background-color: #551b14;
+  color: #FFFFFF;
+  align-items: center;
+  /* Centraliza verticalmente */
+  padding: 16px 120px;
+  font-weight: bolder;
+  font-size: 20px;
+}
+
+/*Estilização para FAQ*/
+
+article {
+  padding: 40px 120px;
+}
