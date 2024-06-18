@@ -1,0 +1,50 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+#titulo-principal{
+  text-align: center;
+  color: rgba(146, 46, 46, 0.804);
+  font-weight: bold;
+}
+
+.caixa1{
+  width: 600px;
+  margin: auto;
+}
+
+.texto-introducao{
+  text-align: center;
+  border: 2px dotted brown;
+}
+.caixa2{
+
+  width: 600px;
+  margin: auto;
+  
+}
+.texto-introducao2{
+  text-align: center;
+  margin: 30px 0 30px 0px;
+  border: 5px double brown;
+}
+
+figure{
+  width: 600px;
+  margin: auto;
+  padding-left: 200px;
+}
+
+img{
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+  box-shadow: 5px 5px 5px 0px rgb(8, 8, 8);
+}
+figcaption{
+  text-align: end;
+  font-weight: bold;
+  box-shadow: 3px 3px 5px 1px brown;
+}

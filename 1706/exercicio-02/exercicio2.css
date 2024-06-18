@@ -1,0 +1,213 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+body{
+  background: linear-gradient(to right, #27361a, #1a192e);
+}
+
+.menu{
+ padding-top: 10px;
+  width: 600px;
+  margin: auto;
+}
+
+h1{
+  text-align: center;
+  color: #FFDD00;
+  text-decoration: underline;
+  text-shadow:  2px 2px 25px rgb(175, 190, 61);
+  padding-bottom: 10px;
+}
+
+.Button-01,.Button-02, .Button-03, .Button-04, .Button-05, .Button-06{
+  width: 600px;
+  margin: auto;
+  border-style: solid;
+  border-color: #FFDD00;
+  border-width: 1.5px;
+  padding:3px 0 10px 10px;
+  box-shadow: 1px 1px 5px 1px rgb(175, 190, 61);  
+}
+
+
+#titulo-button-01, #titulo-button-02, #titulo-button-03, #titulo-button-04,#titulo-button-05, #titulo-button-06 {
+  font-weight: bolder;
+  color: #FFDD00;
+}
+
+.button1{
+  padding: 5px;
+  text-decoration: none;
+  color: white;
+  border: 1px;
+  background-color: #04AA6D; /* Green */
+}
+
+.button2{
+  padding: 5px;
+  text-decoration: none;
+  color: white;
+  border: 1px;
+  background-color: #008CBA; /* Blue */
+}
+.button3{
+  padding: 5px;
+  text-decoration: none;
+  color: white;
+  border: 1px;
+  background-color: #f44336; /* Red */
+}
+/*---------------------------------------------------*/
+.Button-02 .button1{
+  padding: 5px;
+  text-decoration: none;
+  color: white;
+  border: 1px;
+  background-color: #04AA6D; /* Green */
+  font-size: 10px;
+}
+
+.Button-02 .button2{
+  padding: 5px;
+  text-decoration: none;
+  color: white;
+  border: 1px;
+  background-color: #008CBA; /* Blue */
+  font-size: 12px;
+}
+.Button-02 .button3{
+  padding: 5px;
+  text-decoration: none;
+  color: white;
+  border: 1px;
+  background-color: #f44336; /* Red */
+  font-size: 16px;
+}
+
+.Button-02 .button4{
+  padding: 5px;
+  text-decoration: none;
+  color: white;
+  border: 1px;
+  background-color: #04AA6D; /* Red */
+  padding: 10px 24px;
+}
+.Button-02 .button5{
+  padding: 5px;
+  text-decoration: none;
+  color: white;
+  border: 1px;
+  background-color: #008CBA; /* Blue */
+  padding: 12px 28px;
+}
+.Button-02 .button6{
+  padding: 5px;
+  text-decoration: none;
+  color: white;
+  border: 1px;
+  background-color: #f44336; /* Red */
+  padding: 14px 40px;
+}
+
+/*---------------------------------------------------*/
+.Button-03 .button1{
+  border-radius: 2px;
+  padding: 5px;
+  text-decoration: none;
+  color: white;
+  border: 1px;
+  background-color: #04AA6D; /* Green */
+  font-size: 25px;
+}
+
+.Button-03 .button2{
+  border-radius: 4px;
+  padding: 5px;
+  text-decoration: none;
+  color: white;
+  border: 1px;
+  background-color: #008CBA; /* Blue */
+  font-size: 25px;
+}
+.Button-03 .button3{
+  border-radius: 8px;
+  padding: 5px;
+  text-decoration: none;
+  color: white;
+  border: 1px;
+  background-color: #f44336; /* Red */
+  font-size: 25px;
+}
+/*---------------------------------------------------*/
+.Button-04 .button1{
+  background-color: white;
+  color: black;
+  border: 2px solid #04AA6D; /* Green */
+}
+
+.Button-04 .button2{
+  background-color: white;
+  color: black;
+  border: 2px solid #008CBA; /* Blue */
+ 
+  
+}
+.Button-04 .button3{
+  background-color: white;
+  color: black;
+  border: 2px solid #f44336; /* Red */
+}
+/*---------------------------------------------------*/
+.Button-05 .button1:hover{
+  background-color: white;
+  color: black;
+  border: 2px solid #04AA6D; /* Green */
+  transition-duration: 0.4s;
+}
+
+
+.Button-05 .button2:hover{
+  background-color: white;
+  color: black;
+  border: 2px solid #008CBA; /* Blue */
+  transition-duration: 0.4s;
+  
+}
+.Button-05 .button3:hover{
+  background-color: white;
+  color: black;
+  border: 2px solid #f44336; /* Red */
+  transition-duration: 0.4s;
+}
+/*---------------------------------------------------*/
+.Button-06 .button1{
+  background-color: #04AA6D;
+  color: white;
+
+}
+.Button-06 .button2{
+  background-color: #04AA6D;
+  color: white;
+  opacity: 0.6;
+  cursor: not-allowed;
+  
+}
+/*---------------------------------------------------*/
+.Button-07 .button1:hover{
+  padding: 5px;
+  text-decoration: none;
+  color: white;
+  border: 1px;
+  background-color: #04AA6D; /* Green */
+  font-size: 20px;
+ 
+}
+footer{
+  text-align: center;
+  color: white;
+  padding: 5px;
+  font-size: 10px;
+}
