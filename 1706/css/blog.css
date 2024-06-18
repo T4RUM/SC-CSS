@@ -1,0 +1,24 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.secao{
+  width: 400px;
+  margin: 16px auto; 
+  background: linear-gradient(65deg, rgb(0, 0, 0), rgb(158, 165, 158));
+}
+
+/*Box Shadow*/
+/*box-shadow: x y desfoque spread color*/
+
+.figura{
+  height: 150px;
+  box-shadow: 5px 5px 5px 0px rgb(8, 8, 8);
+}
+
+/*Combinador*/
+.secao p{
+  text-shadow: 1px 1px 1px rgb(255, 255, 255);
+}

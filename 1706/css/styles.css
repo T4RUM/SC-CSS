@@ -1,0 +1,33 @@
+/*
+1º ID 
+2º Class
+3º Elemento - (Tags)
+!important = Ignora a prioridade padrão
+*/
+
+/*Seletor de elemento = É literalmente o nome da tag HTML, todos os elementos da página recebem o estilo*/
+p {
+  color: blue;
+}
+
+/*Seletor de classes =  Elementos com atributo class recebem o estilo*/
+.destaque{
+  background-color: yellow;
+  color: red;
+}
+
+.texto-centro{
+  text-align: center;
+}
+
+/*Seletor de ID = Aplicado a um unico elemento na página*/
+#paragrafo{
+  background-color: aqua;
+  color: white;
+  text-align: right;
+}
+
+body{
+  /*Propriedade herdada = Passada a diante = https://www.w3schools.com/cssref/index.php*/
+  font-family: Arial, Helvetica, sans-serif;
+}

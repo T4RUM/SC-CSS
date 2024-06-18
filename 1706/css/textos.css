@@ -1,0 +1,54 @@
+/*Elemento Raiz*/
+/*16px = 1rem*/
+html{
+  font-size: 20px;
+}
+
+/*Propriedades de fonte e texto*/
+body{
+  /*Fall back reserva, caso não tenha a primera fonte vai para outra*/
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+p{
+  text-align: center;
+  font-style: italic;
+  font-weight: 900;
+  text-decoration: line-through;
+  letter-spacing: 2px;
+  line-height: 30px;
+  /*hexadecimal / rgb / rgba transparencia*/
+  color: green;
+  font-size: 2rem;
+}
+/*
+  - Unidades absolutas (px, cm, pt) - Valor constante, não depende de ninguem, não alteração em telas diferentes
+  - Unidades relativas 
+  vh =  Viewport height (Altura da tela)
+  vw = Viewport Width (Largura da tela) 
+  rem = Relativo ao elemento raiz
+  % = 
+*/
+
+/*Sempre que for utilizar o parametro de % para definiar o tamanho de uma imagem voce tem que ter um pai <section> ou <div> com altura fixa para que ele possa se basear, tipo 50% da <section> (Isso no caso da altura) pois o body é dinamico, não tem uma altura definida*/
+.quadrado1{
+  background-color: royalblue;
+  width: 150px;
+  height: 150px;
+}
+
+.quadrado2{
+  background-color: chartreuse;
+  width: 50vw;
+  height: 20vh;
+
+}
+.quadrado3{
+  background-color: tomato;
+  width: 60%;
+  height: 50%;
+
+}
+.quadrado4{
+  background-color: violet;
+  height: 300px;
+}
