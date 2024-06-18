@@ -9,7 +9,7 @@ body{
 }
 
 .menu{
- padding-top: 10px;
+ padding-top: 20px;
   width: 600px;
   margin: auto;
 }
@@ -19,7 +19,7 @@ h1{
   color: #FFDD00;
   text-decoration: underline;
   text-shadow:  2px 2px 25px rgb(175, 190, 61);
-  padding-bottom: 10px;
+  padding-bottom: 20px;
 }
 
 .Button-01,.Button-02, .Button-03, .Button-04, .Button-05, .Button-06{
@@ -28,12 +28,13 @@ h1{
   border-style: solid;
   border-color: #FFDD00;
   border-width: 1.5px;
-  padding:3px 0 10px 10px;
+  padding:20px 0 20px 10px;
   box-shadow: 1px 1px 5px 1px rgb(175, 190, 61);  
 }
 
 
 #titulo-button-01, #titulo-button-02, #titulo-button-03, #titulo-button-04,#titulo-button-05, #titulo-button-06 {
+  padding-bottom: 20px;
   font-weight: bolder;
   color: #FFDD00;
 }
@@ -197,7 +198,7 @@ h1{
 }
 /*---------------------------------------------------*/
 .Button-07 .button1:hover{
-  padding: 5px;
+  padding: 10px;
   text-decoration: none;
   color: white;
   border: 1px;
@@ -208,6 +209,6 @@ h1{
 footer{
   text-align: center;
   color: white;
-  padding: 5px;
+  padding: 10px;
   font-size: 10px;
 }
