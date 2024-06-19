@@ -61,3 +61,35 @@ footer {
   width: 100%;
   bottom: 0;
 }
+/*Adicionando Responsividade*/
+@media (max-width: 480px) {
+  header {
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+  }
+  header h1 {
+    margin: 0;
+    font-size: 26px;
+  }
+  nav ul {
+    display: flex;
+    list-style: none;
+    gap: 8px;
+    font-size: 16px;
+    flex-direction: column;
+  }
+  h2 {
+    font-size: 20px;
+  }
+  p {
+    font-size: 12px;
+  }
+  .images {
+    display: flex;
+    flex-direction: column;
+  }
+  footer p {
+    font-size: 16px;
+  }
+}
