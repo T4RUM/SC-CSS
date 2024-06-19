@@ -1,32 +1,36 @@
-@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
-*{
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap");
+* {
   margin: 0;
   padding: 0;
   border: 0;
   box-sizing: border-box;
   font-size: 16px;
 }
-.navbar{
-  background-color: #0B0F19 ;  
+html {
+  font-family: "Manrope", sans-serif;
+}
+
+.navbar {
+  background-color: #0b0f19;
   display: flex;
   justify-content: space-around;
   align-items: center;
   padding: 8px 180px;
 }
 
-.nav-links{
+.nav-links {
   width: 500px;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-img{
+img {
   width: 150px;
   height: 30px;
 }
 
-button{
-  color: #D8D9DB;
+button {
+  color: #d8d9db;
   background-color: transparent;
   font-weight: bold;
   cursor: pointer;
@@ -34,19 +38,51 @@ button{
   font-size: 1rem;
   font-family: "Manrope", sans-serif;
 }
-button:hover{
-  color: #FFCC11;
+button:hover {
+  color: #ffcc11;
 }
 
-.btn-login #login{
+.btn-login #login {
   padding: 8px 20px;
-  border: 1px solid #FFCC11;
-  color: #FFCC11;
+  border: 1px solid #ffcc11;
+  color: #ffcc11;
   border-radius: 10px;
   font-weight: bold;
 }
 
-#login:hover{
-  background-color: #FFCC11;
-  color: #0B0F19;
+#login:hover {
+  background-color: #ffcc11;
+  color: #0b0f19;
+}
+/*Media Query = regra especial*/
+/*
+    @media condicao {
+      // Estilos a serem aplicados quando a condição for verdadeira
+    }
+*/
+/*Se a largura estiver no máximo 599px aplica-se o estilo*/
+
+/*Smaller Smartphones*/
+@media (max-width: 480px) {
+  body {
+    background-color: red;
+  }
+}
+/*Tablets & Smaller Smartphones*/
+@media (min-width: 481px) and (max-width: 768px) {
+  body {
+    background-color: orange;
+  }
+}
+/*Laptops & Tablets in Landscape*/
+@media (min-width: 769px) and (max-width: 1279px) {
+  body {
+    background-color: rgb(145, 203, 146);
+  }
+}
+/*Larger Desktops and monitors*/
+@media (min-width: 1280px) {
+  body {
+    background-color: rgb(0, 0, 0);
+  }
 }

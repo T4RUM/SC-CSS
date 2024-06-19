@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+html {
+  font-family: "Manrope", sans-serif;
+}
+
+.navbar {
+  background-color: #0b0f19;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 8px 180px;
+  gap:24px;
+}
+
+.nav-links {
+  width: 500px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  width: 150px;
+  height: 30px;
+}
+
+button {
+  color: #d8d9db;
+  background-color: transparent;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.9s;
+  font-size: 1rem;
+  font-family: "Manrope", sans-serif;
+}
+button:hover {
+  color: #ffcc11;
+}
+
+.btn-login #login {
+  padding: 8px 20px;
+  border: 1px solid #ffcc11;
+  color: #ffcc11;
+  border-radius: 10px;
+  font-weight: bold;
+}
+
+#login:hover {
+  background-color: #ffcc11;
+  color: #0b0f19;
+}
+/*Seção de cards responsivo*/
+.section-container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 16px;
+  padding: 16px;
+
+}
+.section-card{
+  width: 320px;
+  display: flex;
+  padding: 16px;
+  background-color: wheat;
+  gap: 16px;
+}
+
+.section-card img{
+  width: 120px;
+}
+
+.section-card p{
+  text-align: justify;
+}
+
+
+/*Smaller Smartphones*/
+/*Foi alterado para não quebrar a navbar, estava em 480px e foi pra 768px ai resolveu*/
+@media (max-width: 768px) {
+  /*- Trocar a navbar de row para column*/
+  /*Redefinir a altura*/
+  /*Alinhas os elementos*/
+  .navbar{
+    flex-direction: column;
+    height: auto;
+    align-items: center;
+  }
+  /*Ajustar a largura*/
+  .logo{
+    width: 156px;
+  }
+  /*Row para Column*/
+  .nav-links{
+    flex-direction: column;
+    margin: 5px 0 5px 0;
+    gap: 12px
+  }
+}
+
+@media (max-width: 768px){
+  .section-card{
+    flex-direction: column;
+    padding: 0;
+    gap:0;
+  }
+  .section-card img{
+    width: 100%;
+  }
+  .section-card p{
+    padding: 16px;
+  }
+}

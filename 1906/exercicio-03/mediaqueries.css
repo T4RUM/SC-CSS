@@ -1,0 +1,12 @@
+/*Smaller Smartphones*/
+@media (max-width: 480px) {
+}
+/*Tablets & Smaller Smartphones*/
+@media (min-width: 481px) and (max-width: 768px) {
+}
+/*Laptops & Tablets in Landscape*/
+@media (min-width: 769px) and (max-width: 1279px) {
+}
+/*Larger Desktops and monitors*/
+@media (min-width: 1280px) {
+}
