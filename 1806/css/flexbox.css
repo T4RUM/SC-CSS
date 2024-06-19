@@ -1,0 +1,49 @@
+*{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+.item-1{
+  background-color: orange;
+}
+
+.item-2{
+  background-color: violet;
+}
+
+.item-3{
+  background-color: brown;
+  /*Define o alinhamento individual no eixo cross*/
+  align-self: flex-start;
+}
+
+.item-4{
+  background-color: gold;
+}
+
+.item-1, .item-2, .item-3, .item-4{
+  width: 200px;
+  padding: 8px;
+}
+
+.container{
+  background-color: blue;
+  /*Ativa o FlexBox*/
+  display: flex;
+  /*Define se é row/coumn*/
+  flex-direction: row;
+  /*Define se há quebra de linha ao faltar espaço*/
+  flex-wrap: wrap;
+  /*Ajustar os elementos no eixo main (horizontamente/row)*/
+  justify-content: center;
+  /*Ajustar os elementos no eixo cross (verticalmente/cross)*/
+  align-items: center;
+  height: 100vh;
+  /*Ajusta os elementos quando usamos os wrap*/
+  /*align-content: center;*/
+  /*Da um espaçamento assim como a margin ou padding*/
+  gap: 16px;
+}
+
