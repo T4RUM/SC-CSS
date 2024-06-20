@@ -150,9 +150,10 @@ th {
     width: 100%;
   }
   .contato-whatsapp {
-    position: fixed;
-    width: 36px;
-    height: 36px;
+    bottom: 240px;
+    right: 10px;
+    width: 46px;
+    height: 46px;
   }
   main {
     padding: 20px;
@@ -194,6 +195,7 @@ th {
   .cronograma{
     width: 100%;
   }
+  
 }
 
 /*Laptops & Tablets in Landscape*/
